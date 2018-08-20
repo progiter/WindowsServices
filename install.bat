@@ -45,7 +45,7 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 ::::::::::::::::::::::::::::
 @echo off
 cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
-installutil.exe "C:\temp\tempRun\svchost.exe"
+installutil.exe "your_windows_path_service"
 
 if ERRORLEVEL 1 goto error
 exit
